@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\CNU\CPSC475\Project2_Solution_color_Appbar_SKELETON\project2_Solution_color_SKELETON\src\main\jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\CNU\CPSC475\Project2_Solution_color_Appbar_SKELETON\project2_Solution_color_SKELETON\src\debug\jniLibs"/></dataSet></merger>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:scaleType="fitXY"
+    app:elevation="1dp">
+
+<!--    TODO add an appbar layout-->
+    <!--  changed from android:background="?attr/colorPrimary" to whats below to make translucent
+          change to android:background="@android:color/transparent" to make transparent-->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:background="#77000000"
+        android:fitsSystemWindows="true"
+        >
+
+        <!--  changed from this android:background="?attr/colorPrimary" to whats below to make transparent-->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:fitsSystemWindows="true"
+        android:src="@drawable/gutters" />
+<!--can have app:srcCompat="@android:drawable/ic_menu_camera" for standard camera-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttonTakePicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

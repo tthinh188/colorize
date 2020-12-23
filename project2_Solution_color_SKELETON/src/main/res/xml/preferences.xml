@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="Share Options">
+        <EditTextPreference
+            app:key="shareSubject"
+            app:title="Share Subject"
+            app:useSimpleSummaryProvider="true"
+            app:defaultValue="This is the subject of the message you would like to share"/>
+
+        <EditTextPreference
+            app:key="shareText"
+            app:title="Share Text"
+            app:useSimpleSummaryProvider="true"
+            app:defaultValue="This is the text you would like to share"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Rendering Options"
+        android:summary="Level of sketchiness and color saturation">
+        <SeekBarPreference
+            android:id="@+id/bw"
+            app:defaultValue="15"
+            app:enabled="true"
+            app:key="sketchiness_bar"
+            app:min="0"
+            app:showSeekBarValue="true"
+            app:summary="Set BW threshold, higher numbers correspond to less detail and a white image"
+            app:title="Sketchiness" />
+        <SeekBarPreference
+            android:id="@+id/sat"
+            app:defaultValue="15"
+            app:enabled="true"
+            app:key="saturation_bar"
+            app:min="0"
+            app:showSeekBarValue="true"
+            app:summary="Set color saturation, higher numbers correspond to more color full images"
+            app:title="Saturation" />
+    </PreferenceCategory>
+    
+</PreferenceScreen>

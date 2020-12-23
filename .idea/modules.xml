@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Project2_Solution_color_Appbar_SKELETON.iml" filepath="$PROJECT_DIR$/.idea/modules/Project2_Solution_color_Appbar_SKELETON.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bitmap_utilities/Project2_Solution_color_Appbar_SKELETON.bitmap_utilities.iml" filepath="$PROJECT_DIR$/.idea/modules/bitmap_utilities/Project2_Solution_color_Appbar_SKELETON.bitmap_utilities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project2_Solution_color_SKELETON/Project2_Solution_color_Appbar_SKELETON.project2_Solution_color_SKELETON.iml" filepath="$PROJECT_DIR$/.idea/modules/project2_Solution_color_SKELETON/Project2_Solution_color_Appbar_SKELETON.project2_Solution_color_SKELETON.iml" />
+    </modules>
+  </component>
+</project>
